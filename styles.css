@@ -1561,6 +1561,15 @@ span + span {
 }
 
 @media screen and (max-width: 800px) {
+   .header__container {
+    width: 76vw;
+  }
+
+  .scroll-up {
+    right: 22px;
+    bottom: 22px;
+  }
+   
   .header__burger {
     display: block;
   }
